@@ -49,6 +49,7 @@
 		882F6A741FAF712300A43728 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		882F6A751FAF712300A43728 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		882F6A761FAF712300A43728 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		882F6A7E1FAF7AB900A43728 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8A74FD8636A5208765F65CD89DB120AB /* Pods-Grid_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Grid_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8F4987B36E14E368538C3B6043FA0DA2 /* Pods-Grid_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Grid_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -126,7 +127,8 @@
 		74C897032ED8B47D8A9DE45F31232432 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				882F6A7A1FAF776900A43728 /* Classes */,
+				882F6A7D1FAF7AB900A43728 /* Assets */,
+				882F6A7B1FAF7AB900A43728 /* Classes */,
 				F863D4A27994A38DDDC96BCC45400570 /* Support Files */,
 			);
 			name = Grid;
@@ -154,14 +156,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		882F6A7A1FAF776900A43728 /* Classes */ = {
+		882F6A7B1FAF7AB900A43728 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				882F6A741FAF712300A43728 /* Grid.swift */,
 				882F6A751FAF712300A43728 /* GridView.swift */,
 				882F6A761FAF712300A43728 /* GridViewController.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = Grid/Classes;
+			sourceTree = "<group>";
+		};
+		882F6A7D1FAF7AB900A43728 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				882F6A7E1FAF7AB900A43728 /* .gitkeep */,
+			);
+			name = Assets;
+			path = Grid/Assets;
 			sourceTree = "<group>";
 		};
 		992324DEA479B4D45A7C838A92C93849 /* Pods-Grid_Example */ = {

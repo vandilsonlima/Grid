@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Grid'
   s.version          = '0.1.0'
-  s.summary          = 'A simple pod to show a grid above the app'
+  s.summary          = 'Show a grid above the app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A simple pod to show a grid above the app
+Created to help when comparing layouts
                        DESC
 
   s.homepage         = 'https://github.com/vandilsonlima/Grid'
@@ -30,7 +30,7 @@ A simple pod to show a grid above the app
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Grid/Classes/**/*'
+  s.source_files = 'Grid/Classes/**/*.{swift}'
 
   # s.resource_bundles = {
   #   'Grid' => ['Grid/Assets/*.png']
