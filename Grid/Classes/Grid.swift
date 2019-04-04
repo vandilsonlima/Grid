@@ -38,6 +38,6 @@ public final class Grid {
         window.rootViewController = viewController
         window.backgroundColor = .clear
         window.isUserInteractionEnabled = false
-        window.windowLevel = 100
+        window.windowLevel = .init(100)
     }
 }

@@ -1,8 +1,8 @@
 {
   "name": "Grid",
   "version": "0.1.0",
-  "summary": "A short description of Grid.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Show a grid above the app",
+  "description": "Created to help when comparing layouts",
   "homepage": "https://github.com/vandilsonlima/Grid",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Grid/Classes/**/*"
+  "source_files": "Grid/Classes/**/*.{swift}"
 }
